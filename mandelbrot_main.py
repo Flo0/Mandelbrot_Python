@@ -1,4 +1,3 @@
-from threading import Thread
 import numpy as np
 from PIL import Image
 import time
@@ -99,7 +98,6 @@ def rotRGB_colorfull(i):
 # Zeigt den Fortschritt an
 def show_progess():
     print("Fortschritt: %.2f %%" % ((100.0 / __pixel_amount) * __pixel_counter))
-    time.sleep(1)
 
 
 # ------------------------- Execution ------------------------- #
